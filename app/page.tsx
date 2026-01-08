@@ -37,7 +37,7 @@ export default function Home() {
   const [sortBy, setSortBy] = useState<SortByOption>("posted_date");
   const [order, setOrder] = useState<OrderOption>("desc");
 
-  const perPage = 12;
+  const perPage = 24;
 
   // Debounce logic for search
   useEffect(() => {
